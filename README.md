@@ -1,6 +1,6 @@
-# AI Task Manager
+# 🤖 AI Task Manager (Dockerized)
 
-A modern, production-ready full-stack task management application with Docker containerization.
+A full-stack AI Task Manager built with React, Express.js, and MongoDB, fully containerized using Docker. The project demonstrates how a modern web application can be packaged into lightweight containers for consistent deployment across different environments.
 
 ## Architecture
 
@@ -19,34 +19,6 @@ A modern, production-ready full-stack task management application with Docker co
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## Folder Structure
-
-```
-task-manager/
-├── frontend/                # React + Vite + Tailwind CSS
-│   ├── src/
-│   │   ├── api/             # Axios configuration
-│   │   ├── components/      # Reusable UI components
-│   │   ├── context/         # Auth & Theme contexts
-│   │   └── pages/           # Route pages
-│   ├── Dockerfile           # Multi-stage build
-│   ├── package.json
-│   ├── vite.config.js
-│   └── tailwind.config.js
-├── backend/                 # Node.js + Express
-│   ├── src/
-│   │   ├── config/          # Database connection
-│   │   ├── controllers/     # Route handlers
-│   │   ├── middleware/      # Auth & error handling
-│   │   ├── models/          # Mongoose schemas
-│   │   └── routes/          # API routes
-│   ├── Dockerfile           # Multi-stage build
-│   └── package.json
-├── docker-compose.yml       # Orchestration
-├── .dockerignore
-├── .env.example
-└── README.md
-```
 
 ## Features
 
@@ -61,6 +33,19 @@ task-manager/
 - Responsive design
 - Health check endpoints
 - Production-optimized Docker images
+
+---
+
+## 🚀 Features
+
+- AI-powered task management
+- Create, edit, and delete tasks
+- Responsive and modern UI
+- REST API backend
+- MongoDB database integration
+- Fully Dockerized application
+- Environment variable support
+- Easy deployment using Docker Compose
 
 ## Tech Stack
 
@@ -270,6 +255,3 @@ sudo chmod 666 /var/run/docker.sock
 - [ ] Rate limiting
 - [ ] Request validation (Joi/Zod)
 
-## License
-
-MIT
